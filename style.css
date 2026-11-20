@@ -1,0 +1,210 @@
+body {
+    background: #100b19;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #ff1493, #8000ff);
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.hero h2 {
+    color: #ff69b4;
+    font-size: 30px;
+}
+
+.card {
+    background: #21182d;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 15px;
+    border: 1px solid #ff1493;
+}
+
+.card h3 {
+    color: #ff69b4;
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.navigation button {
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.banner {
+    background: linear-gradient(135deg, #ff1493, #8000ff, #160d35);
+    padding: 55px 15px;
+    margin: 25px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff1493;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.banner p {
+    color: white;
+    letter-spacing: 3px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #100b19;
+    padding: 10px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:active {
+    transform: scale(0.97);
+}
+.search-box {
+    padding: 15px;
+}
+
+.search-box input {
+    width: 90%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #ff1493;
+    background: #21182d;
+    color: white;
+    font-size: 16px;
+}
+footer {
+    background: #21182d;
+    padding: 30px 15px;
+    text-align: center;
+    line-height: 2;
+    border-top: 2px solid #ff1493;
+}
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff1493;
+}
+
+button:hover {
+    background: #8000ff;
+    transform: scale(1.05);
+}
+
+.hero button {
+    background: linear-gradient(90deg, #ff1493, #8000ff);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    padding: 15px;
+}
+
+.card {
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .navigation button {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+#news {
+    border: 2px solid #ff00cc;
+    background: linear-gradient(135deg, #1a0033, #330066);
+    box-shadow: 0 0 15px #ff00cc;
+    padding: 20px;
+    border-radius: 15px;
+}
+#release {
+    border: 2px solid #9900ff;
+    background: linear-gradient(135deg, #16002b, #4b0082);
+    box-shadow: 0 0 15px #9900ff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.top-button {
+    background: linear-gradient(90deg, #ff00cc, #6600ff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 25px auto;
+    cursor: pointer;
+    box-shadow: 0 0 15px #ff00cc;
+}
+#wallpapers {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+#wallpapers h2 {
+    color: #ff00cc;
+    text-shadow: 0 0 10px #ff00cc;
+    margin-bottom: 20px;
+}
+
+#wallpapers .card {
+    border: 1px solid #9900ff;
+    background: linear-gradient(135deg, #16002b, #330066);
+    box-shadow: 0 0 12px #9900ff;
+}

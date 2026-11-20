@@ -1,0 +1,9 @@
+{
+  "name": "Vice City Hub",
+  "short_name": "Vice City",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#16002b",
+  "theme_color": "#9900ff",
+  "description": "An independent GTA 6 fan app."
+}
